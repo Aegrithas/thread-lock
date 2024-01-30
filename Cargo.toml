@@ -1,0 +1,13 @@
+[package]
+name = "thread-lock"
+version = "0.1.0"
+edition = "2021"
+authors = ["Aegrithas"]
+description = "A wrapper that locks non-Send and non-Sync data to a specific thread"
+license = "MIT"
+repository = "https://github.com/Aegrithas/thread-lock"
+keywords = []
+categories = []
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docs_rs"]
